@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Jorina Chen
+EMAIL: jorinac@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Your name here">
+  <meta name="description" content="description of your page">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <script src="function.js"> </script>
+  <title>Cookology</title>
+</head>
+
+<body class="cookology-page">
+  <div class="navbar-web">
+    <div id="navbar">
+      <div class="navbar-left" style="padding-left: 3%">
+        <ul>
+          <li><a href="index.html">Jorina Chen</a></li>
+          <li>
+            <a class="image-padding-within-a" href="index.html">
+            <img
+              class="Logo-Image"
+              src="Images/Marble_logo.png"
+              width="46"
+              height="44"
+              alt="Jorina Chen's website logo"
+            />
+          </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="navbar-right">
+        <ul>
+          <li>
+            <button id="toggle-button">
+              <img
+                class="dark-icon"
+                src="Images/moon_logo_2.png"
+                width="28"
+                height="28"
+                alt="Dark mode icon"
+              />
+              <img
+                class="dark-icon-hover"
+                src="Images/moon_hover.png"
+                width="28"
+                height="28"
+                alt="Dark mode icon"
+              />
+            </button>
+          </li>
+          <li><a href="Jorina_Chen_Resume.pdf">Resume</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="index.html">Work</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="mobile-navbar">
+    <a href="index.html">
+    <img
+      class="Logo-Image"
+      src="Images/Marble_logo.png"
+      width="46"
+      height="44"
+      alt="Jorina Chen's website logo"
+      class="mobile-logo"
+    />
+  </a>
+  
+
+    <div class="nav-link" id="nav-link">
+      <a href="index.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="Jorina_Chen_Resume.pdf">Resume</a>
+      <button id="toggle-button2" onclick="menuToggle()">
+        <img
+          class="dark-icon"
+          src="Images/moon_logo_2.png"
+          width="28"
+          height="28"
+          alt="Dark mode icon"
+        />
+        <img
+          class="dark-icon-hover"
+          src="Images/moon_hover.png"
+          width="28"
+          height="28"
+          alt="Dark mode icon"
+        />
+      </button>
+      <a href="javascript:void(0)" class="close-icon" onclick="menuToggle()"
+        >Close</a
+      >
+      <!-- <a href="javascript:void(0)" class="close-icon" onclick="menuToggle()"> <span class="material-symbols-outlined">Close</span></a> -->
+    </div>
+    <!-- <a href="javascript:void(0)"class="icon" onclick="menuToggle()"> <span class="material-symbols-outlined">Menu</span></a> -->
+    <a onclick="menuToggle()"
+      ><img
+        class="icon"
+        src="Images/menu_dark.png"
+        width="42"
+        height="42"
+        alt="Jorina Chen's website logo"
+        class="mobile-logo"
+    /></a>
+  </div>
+
+
+
+   <!-- case study images-->
+  <div class="case-study-images">
+    <img src="Cookology/01_Problem_Statement.png" style="width:100%" alt="Problem statement of the Cookology case study and the key features of the mobile application">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Cookology/02_Empathize_with_Users.png" style="width:100%" alt="Describes how user surveys were used to collect research data and the three key findings from the research.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Cookology/03_Goals.png" style="width:100%" alt="Describes the three main goals of what Cookology strives to achieve.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Cookology/04_User_Personas.png" style="width:100%" alt="Shows three user personas: a UX Researcher, UX Designer, and a Software Enginner and their frustrations and goals with the application.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Cookology/05_Heuristics_Applied.png" style="width:100%" alt="Describes the heuristics applied to the Cookology application.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Cookology/06_Lofi.png" style="width:100%" alt="Low-fidelity paper prototype of the initial screens of Cookology.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Cookology/07_Branding_Guidelines.png" style="width:100%" alt="Illustrates the branding guidelines used to create Cookology.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Cookology/08_typography.png" style="width:100%" alt="Descibes the typography used for Cookology and gives examples of specific elements.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Cookology/09_task_1.png" style="width:100%" alt="Provides four Cookology screens that show how a user would access recipes.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Cookology/10_task_2.png" style="width:100%" alt="Provides four screens that show how a user would share their experience and rate recipes in Cookology.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Cookology/11_task_3.png" style="width:100%" alt="Shows how a user would create a collection within Cookology.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Cookology/12_task_4.png" style="width:100%" alt="Illustrates how a user would share their recipes within Cookology.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Cookology/13_Components.png" style="width:100%" alt="Shows the components used within Cookology and their properties and reasoning.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Cookology/14_Research.png" style="width:100%" alt="Describes the moderated usability tests and the objectives used when conducting qualitative research on Cookology.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Cookology/15_Research_Insight_1.png" style="width:100%" alt="Describes research insight 1 of how users want options when interacting with Cookology.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Cookology/16_Research_Insight_2.png" style="width:100%" alt="Includes user quotes to support research insight 2 of how users want more clarification or more access to information.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Cookology/17_Research_Insight_3.png" style="width:100%" alt="Describes research insight 3 of how users had difficulty sharing the recipe once they arrived on the camera page. ">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Cookology/18_Next_Steps.png" style="width:100%" alt="Depicts the next steps for designing and refining the Cookology application.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Cookology/19_Project_Takeaways_2.png" style="width:100%" alt="Describes the project takeaways of Cookology.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Cookology/20_Resources.png" style="width:100%" alt="Provides the resources used for Cookology.">
+  </div>
+
+      <div class="footer">
+        <div class="light-footer-content">
+          <a href="https://linkedin.com/in/jorinachen/">
+            <img class= "LinkedIn" src="Images/LinkedIn_Icon.png" width="23" height= "23" alt="LinkedIn Icon that links to Jorina Chen's LinkedIn page">
+          </a>
+  
+          <a href="mailto:jorinajoshan@gmail.com">
+            <img class="Mail" src="Images/Mail_icon.png" width="28" height= "22" alt="Mail icon that links to Jorina Chen's email address">
+          </a>
+        </div>
+      </div>
+
+  
+      <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+      const toggleButton = document.getElementById('toggle-button');
+
+
+      const darkMode = localStorage.getItem('darkMode');
+
+      if (darkMode === 'enabled') {
+      document.body.classList.add('dark-mode');
+     }
+
+     toggleButton.addEventListener('click', () => {
+     document.body.classList.toggle('dark-mode');
+
+    if (document.body.classList.contains('dark-mode')) {
+      localStorage.setItem('darkMode', 'enabled');
+    } else {
+      localStorage.setItem('darkMode', 'disabled');
+    }
+  });
+});
+
+
+document.addEventListener("DOMContentLoaded", (event) => {
+        const toggleButton = document.getElementById("toggle-button2");
+
+        const darkMode = localStorage.getItem("darkMode");
+
+        if (darkMode === "enabled") {
+          document.body.classList.add("dark-mode");
+        }
+
+        toggleButton.addEventListener("click", () => {
+          document.body.classList.toggle("dark-mode");
+
+          if (document.body.classList.contains("dark-mode")) {
+            localStorage.setItem("darkMode", "enabled");
+          } else {
+            localStorage.setItem("darkMode", "disabled");
+          }
+        });
+      });
+
+      function menuToggle() {
+        var navLinks = document.getElementById("nav-link");
+
+        if (navLinks.classList.contains("show")) {
+          navLinks.classList.remove("show");
+          setTimeout(() => {
+            navLinks.style.display = "none";
+          }, 500);
+          document.removeEventListener("click", closeMenu);
+        } else {
+          navLinks.style.display = "flex";
+          setTimeout(() => {
+            navLinks.classList.add("show");
+          }, 10);
+          document.addEventListener("click", closeMenu);
+        }
+      }
+
+      function closeMenu(event) {
+        var navLinks = document.getElementById("nav-link");
+        var icon = document.querySelector(".icon");
+
+        if (!navLinks.contains(event.target) && !icon.contains(event.target)) {
+          navLinks.classList.remove("show");
+          setTimeout(() => {
+            navLinks.style.display = "none";
+          }, 500);
+          document.removeEventListener("click", closeMenu);
+        }
+      }
+
+      </script>
+
+
+    
+</body>

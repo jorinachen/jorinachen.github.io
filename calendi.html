@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Jorina Chen
+EMAIL: jorinac@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Your name here">
+  <meta name="description" content="description of your page">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <script src="function.js"> </script>
+  <title>Calendi</title>
+</head>
+
+<body>
+  <div class="navbar-web">
+    <div id="navbar">
+      <div class="navbar-left" style="padding-left: 3%">
+        <ul>
+          <li><a href="index.html">Jorina Chen</a></li>
+          <li>
+            <a class="image-padding-within-a" href="index.html">
+            <img
+              class="Logo-Image"
+              src="Images/Marble_logo.png"
+              width="46"
+              height="44"
+              alt="Jorina Chen's website logo"
+            />
+          </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="navbar-right">
+        <ul>
+          <li>
+            <button id="toggle-button">
+              <img
+                class="dark-icon"
+                src="Images/moon_logo_2.png"
+                width="28"
+                height="28"
+                alt="Dark mode icon"
+              />
+              <img
+                class="dark-icon-hover"
+                src="Images/moon_hover.png"
+                width="28"
+                height="28"
+                alt="Dark mode icon"
+              />
+            </button>
+          </li>
+          <li><a href="Jorina_Chen_Resume.pdf">Resume</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="index.html">Work</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="mobile-navbar">
+    <a href="index.html">
+    <img
+      class="Logo-Image"
+      src="Images/Marble_logo.png"
+      width="46"
+      height="44"
+      alt="Jorina Chen's website logo"
+      class="mobile-logo"
+    />
+  </a>
+  
+
+    <div class="nav-link" id="nav-link">
+      <a href="index.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="Jorina_Chen_Resume.pdf">Resume</a>
+      <button id="toggle-button2" onclick="menuToggle()">
+        <img
+          class="dark-icon"
+          src="Images/moon_logo_2.png"
+          width="28"
+          height="28"
+          alt="Dark mode icon"
+        />
+        <img
+          class="dark-icon-hover"
+          src="Images/moon_hover.png"
+          width="28"
+          height="28"
+          alt="Dark mode icon"
+        />
+      </button>
+      <a href="javascript:void(0)" class="close-icon" onclick="menuToggle()"
+        >Close</a
+      >
+      <!-- <a href="javascript:void(0)" class="close-icon" onclick="menuToggle()"> <span class="material-symbols-outlined">Close</span></a> -->
+    </div>
+    <!-- <a href="javascript:void(0)"class="icon" onclick="menuToggle()"> <span class="material-symbols-outlined">Menu</span></a> -->
+    <a onclick="menuToggle()"
+      ><img
+        class="icon"
+        src="Images/menu_dark.png"
+        width="42"
+        height="42"
+        alt="Jorina Chen's website logo"
+        class="mobile-logo"
+    /></a>
+  </div>
+
+
+
+
+   <!-- case study images-->
+   <div class="case-study-images">
+    <img src="Calendi/01_The_challenge.png" style="width:100%" alt="Describes the background of the web-based application Calendi.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Calendi/03_Timeline.png" style="width:100%" alt="Shows the design and research process and timeline used to create Calendi, which includes recruitment, user surveys, design, usability tests, and A/B tests.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Calendi/04_Goals.png" style="width:100%" alt="Includes the three main goals used to create Calendi.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Calendi/05_User_Needs.png" style="width:100%" alt="An image of the Google Form that was sent out to students on the right of the screen. On the left, there are the question types asked during the user surveys.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Calendi/06_Key_Findings.png" style="width:100%" alt="Describes the three main key findings from the user surveys. Below the findings are three illustrated images of users with user quotes below those images.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Calendi/07_Personas.png" style="width:100%" alt="Includes three user personas, their names, ages, background, frustrations, and goals.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Calendi/08_Lowfi.jpg " style="width:100%" alt="Contains the low-fidelity wireframes of create account, sign in, home view, month view, and week view.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Calendi/09_Branding_Guidelines.png" style="width:100%" alt="Displays the fonts used, Calendi icon, and interface colors.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Calendi/10_Designs.jpg" style="width:100%" alt="Shows three computer mockups including the home view of Calendi, month view of Calendi, and week view of Calendi.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Calendi/11_research_plan.png" style="width:100%" alt="Calendi's research plan and a list of what is included in the research plan document.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Calendi/12_moderated_tests.png" style="width:100%" alt="Includes the methodology used, objectives of the usability tests, and an image of the Calendi script.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Calendi/13_Post_Usability.png" style="width:100%" alt="Shows the before and after of Calendi post usability test, specifically changes to the side bar, button appearance, and button location.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Calendi/14_Post_Usability.png" style="width:100%" alt="Continuation of the before and after of Calendi post usability test. Shows the changes made to font, spacing, width, button size, and button appearance.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Calendi/15_AB_Tasks.png" style="width:100%" alt="Includes the three tasks used within the A/B tests and two computer mockups to show the two versions of Calendi that were tested: the light version and a dark version.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Calendi/16_AB_Results.png" style="width:100%" alt="Includes the quantitative and qualitative data from Group A and Group B.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Calendi/17_Insights.png" style="width:100%" alt="Displays the four research insights gather from the A/B tests.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Calendi/18_Next_Steps.png" style="width:100%" alt="Describes the three key takeaways from Calendi including increase sample size, explore other research methodologies, and design in sessions.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Calendi/19_Sources.png" style="width:100%" alt="Shows the resources that were used to create the design of Calendi.">
+  </div>
+      
+
+  <div class="footer">
+    <div class="light-footer-content">
+      <a href="https://linkedin.com/in/jorinachen/">
+        <img class= "LinkedIn" src="Images/LinkedIn_Icon.png" width="23" height= "23" alt="LinkedIn Icon that links to Jorina Chen's LinkedIn page">
+      </a>
+
+      <a href="mailto:jorinajoshan@gmail.com">
+        <img class="Mail" src="Images/Mail_icon.png" width="28" height= "22" alt="Mail icon that links to Jorina Chen's email address">
+      </a>
+    </div>
+  </div>
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+  const toggleButton = document.getElementById('toggle-button');
+
+
+  const darkMode = localStorage.getItem('darkMode');
+
+  if (darkMode === 'enabled') {
+  document.body.classList.add('dark-mode');
+ }
+
+ toggleButton.addEventListener('click', () => {
+ document.body.classList.toggle('dark-mode');
+
+if (document.body.classList.contains('dark-mode')) {
+  localStorage.setItem('darkMode', 'enabled');
+} else {
+  localStorage.setItem('darkMode', 'disabled');
+}
+});
+});
+
+
+document.addEventListener("DOMContentLoaded", (event) => {
+    const toggleButton = document.getElementById("toggle-button2");
+
+    const darkMode = localStorage.getItem("darkMode");
+
+    if (darkMode === "enabled") {
+      document.body.classList.add("dark-mode");
+    }
+
+    toggleButton.addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+
+      if (document.body.classList.contains("dark-mode")) {
+        localStorage.setItem("darkMode", "enabled");
+      } else {
+        localStorage.setItem("darkMode", "disabled");
+      }
+    });
+  });
+
+  function menuToggle() {
+    var navLinks = document.getElementById("nav-link");
+
+    if (navLinks.classList.contains("show")) {
+      navLinks.classList.remove("show");
+      setTimeout(() => {
+        navLinks.style.display = "none";
+      }, 500);
+      document.removeEventListener("click", closeMenu);
+    } else {
+      navLinks.style.display = "flex";
+      setTimeout(() => {
+        navLinks.classList.add("show");
+      }, 10);
+      document.addEventListener("click", closeMenu);
+    }
+  }
+
+  function closeMenu(event) {
+    var navLinks = document.getElementById("nav-link");
+    var icon = document.querySelector(".icon");
+
+    if (!navLinks.contains(event.target) && !icon.contains(event.target)) {
+      navLinks.classList.remove("show");
+      setTimeout(() => {
+        navLinks.style.display = "none";
+      }, 500);
+      document.removeEventListener("click", closeMenu);
+    }
+  }
+
+  </script>
+
+</body>

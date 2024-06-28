@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Jorina Chen
+EMAIL: jorinac@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Your name here">
+  <meta name="description" content="description of your page">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <script src="function.js"> </script>
+  <title>Zendesk</title>
+</head>
+
+<body>
+  <div class="navbar-web">
+    <div id="navbar">
+      <div class="navbar-left" style="padding-left: 3%">
+        <ul>
+          <li><a href="index.html">Jorina Chen</a></li>
+          <li>
+            <a class="image-padding-within-a" href="index.html">
+            <img
+              class="Logo-Image"
+              src="Images/Marble_logo.png"
+              width="46"
+              height="44"
+              alt="Jorina Chen's website logo"
+            />
+          </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="navbar-right">
+        <ul>
+          <li>
+            <button id="toggle-button">
+              <img
+                class="dark-icon"
+                src="Images/moon_logo_2.png"
+                width="28"
+                height="28"
+                alt="Dark mode icon"
+              />
+              <img
+                class="dark-icon-hover"
+                src="Images/moon_hover.png"
+                width="28"
+                height="28"
+                alt="Dark mode icon"
+              />
+            </button>
+          </li>
+          <li><a href="Jorina_Chen_Resume.pdf">Resume</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="index.html">Work</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="mobile-navbar">
+    <a href="index.html">
+    <img
+      class="Logo-Image"
+      src="Images/Marble_logo.png"
+      width="46"
+      height="44"
+      alt="Jorina Chen's website logo"
+      class="mobile-logo"
+    />
+  </a>
+  
+
+    <div class="nav-link" id="nav-link">
+      <a href="index.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="Jorina_Chen_Resume.pdf">Resume</a>
+      <button id="toggle-button2" onclick="menuToggle()">
+        <img
+          class="dark-icon"
+          src="Images/moon_logo_2.png"
+          width="28"
+          height="28"
+          alt="Dark mode icon"
+        />
+        <img
+          class="dark-icon-hover"
+          src="Images/moon_hover.png"
+          width="28"
+          height="28"
+          alt="Dark mode icon"
+        />
+      </button>
+      <a href="javascript:void(0)" class="close-icon" onclick="menuToggle()"
+        >Close</a
+      >
+      <!-- <a href="javascript:void(0)" class="close-icon" onclick="menuToggle()"> <span class="material-symbols-outlined">Close</span></a> -->
+    </div>
+    <!-- <a href="javascript:void(0)"class="icon" onclick="menuToggle()"> <span class="material-symbols-outlined">Menu</span></a> -->
+    <a onclick="menuToggle()"
+      ><img
+        class="icon"
+        src="Images/menu_dark.png"
+        width="42"
+        height="42"
+        alt="Jorina Chen's website logo"
+        class="mobile-logo"
+    /></a>
+  </div>
+
+
+  <div class="zendesk-text">
+    <h1 style="text-align: center;"><strong>UX Research @ Zendesk</strong></h1>
+    <h2>Throughout my time at Zendesk as the UX Research Intern, I worked on three main projects to understand 
+    how to create a seamless experience for customers through generating iterative and rapid feedback for stakeholders. 
+    My research projects helped address stakeholder questions about the customer experience and provided insight into 
+    the motivations, pain points, and needs of customers when it comes to product features.</h2>
+  
+
+  
+    <p><strong>Role:</strong> UX Research Intern <br><br>
+
+        <strong>Duration:</strong> 10 Weeks (June 2022 - August 2022) <br><br>
+        
+        <strong>Manager:</strong> Anna Lee Anda <br><br>
+        
+        <strong>Mentors:</strong> Mandy Kim, Ruiling Wen <br><br>
+        
+        <strong>Tools:</strong> UserTesting, User Interviews, Confluence, Miro, Google Suite, Figma, Zoom, Slack</p>
+
+    </div>
+  
+
+
+  <div class="case-study-images">
+    <h3>My Research Process</h3>
+    <img src="Zendesk/01_Research_Process.png" style="width:100%" alt="Describes the research process used during the Zendesk internship, which includes the phases of recruitment, interviews, synthesis, and reporting.">
+  </div>
+
+  <div class="case-study-images">
+    <img src="Zendesk/02_Takeaways.png" style="width:100%" alt="Includes and describes three personal takeaways including (1) collaboration drives innovation, (2) don't be scared to take a seat at the table, (3) embrace the unexpected.">
+  </div>
+
+
+  <div class="footer">
+    <div class="light-footer-content">
+      <a href="https://linkedin.com/in/jorinachen/">
+        <img class= "LinkedIn" src="Images/LinkedIn_Icon.png" width="23" height= "23" alt="LinkedIn Icon that links to Jorina Chen's LinkedIn page">
+      </a>
+
+      <a href="mailto:jorinajoshan@gmail.com">
+        <img class="Mail" src="Images/Mail_icon.png" width="28" height= "22" alt="Mail icon that links to Jorina Chen's email address">
+      </a>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+  const toggleButton = document.getElementById('toggle-button');
+
+
+  const darkMode = localStorage.getItem('darkMode');
+
+  if (darkMode === 'enabled') {
+  document.body.classList.add('dark-mode');
+ }
+
+ toggleButton.addEventListener('click', () => {
+ document.body.classList.toggle('dark-mode');
+
+if (document.body.classList.contains('dark-mode')) {
+  localStorage.setItem('darkMode', 'enabled');
+} else {
+  localStorage.setItem('darkMode', 'disabled');
+}
+});
+});
+
+
+document.addEventListener("DOMContentLoaded", (event) => {
+    const toggleButton = document.getElementById("toggle-button2");
+
+    const darkMode = localStorage.getItem("darkMode");
+
+    if (darkMode === "enabled") {
+      document.body.classList.add("dark-mode");
+    }
+
+    toggleButton.addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+
+      if (document.body.classList.contains("dark-mode")) {
+        localStorage.setItem("darkMode", "enabled");
+      } else {
+        localStorage.setItem("darkMode", "disabled");
+      }
+    });
+  });
+
+  function menuToggle() {
+    var navLinks = document.getElementById("nav-link");
+
+    if (navLinks.classList.contains("show")) {
+      navLinks.classList.remove("show");
+      setTimeout(() => {
+        navLinks.style.display = "none";
+      }, 500);
+      document.removeEventListener("click", closeMenu);
+    } else {
+      navLinks.style.display = "flex";
+      setTimeout(() => {
+        navLinks.classList.add("show");
+      }, 10);
+      document.addEventListener("click", closeMenu);
+    }
+  }
+
+  function closeMenu(event) {
+    var navLinks = document.getElementById("nav-link");
+    var icon = document.querySelector(".icon");
+
+    if (!navLinks.contains(event.target) && !icon.contains(event.target)) {
+      navLinks.classList.remove("show");
+      setTimeout(() => {
+        navLinks.style.display = "none";
+      }, 500);
+      document.removeEventListener("click", closeMenu);
+    }
+  }
+
+  </script>
+
+</body>

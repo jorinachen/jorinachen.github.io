@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Jorina Chen
+EMAIL: jorinac@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Your name here">
+  <meta name="description" content="description of your page">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <script src="function.js"> </script>
+  <title>ISWB</title>
+</head>
+
+<body>
+  <div class="navbar-web">
+    <div id="navbar">
+      <div class="navbar-left" style="padding-left: 3%">
+        <ul>
+          <li><a href="index.html">Jorina Chen</a></li>
+          <li>
+            <a class="image-padding-within-a" href="index.html">
+            <img
+              class="Logo-Image"
+              src="Images/Marble_logo.png"
+              width="46"
+              height="44"
+              alt="Jorina Chen's website logo"
+            />
+          </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="navbar-right">
+        <ul>
+          <li>
+            <button id="toggle-button">
+              <img
+                class="dark-icon"
+                src="Images/moon_logo_2.png"
+                width="28"
+                height="28"
+                alt="Dark mode icon"
+              />
+              <img
+                class="dark-icon-hover"
+                src="Images/moon_hover.png"
+                width="28"
+                height="28"
+                alt="Dark mode icon"
+              />
+            </button>
+          </li>
+          <li><a href="Jorina_Chen_Resume.pdf">Resume</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="index.html">Work</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="mobile-navbar">
+    <a href="index.html">
+    <img
+      class="Logo-Image"
+      src="Images/Marble_logo.png"
+      width="46"
+      height="44"
+      alt="Jorina Chen's website logo"
+      class="mobile-logo"
+    />
+  </a>
+  
+
+    <div class="nav-link" id="nav-link">
+      <a href="index.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="Jorina_Chen_Resume.pdf">Resume</a>
+      <button id="toggle-button2" onclick="menuToggle()">
+        <img
+          class="dark-icon"
+          src="Images/moon_logo_2.png"
+          width="28"
+          height="28"
+          alt="Dark mode icon"
+        />
+        <img
+          class="dark-icon-hover"
+          src="Images/moon_hover.png"
+          width="28"
+          height="28"
+          alt="Dark mode icon"
+        />
+      </button>
+      <a href="javascript:void(0)" class="close-icon" onclick="menuToggle()"
+        >Close</a
+      >
+      <!-- <a href="javascript:void(0)" class="close-icon" onclick="menuToggle()"> <span class="material-symbols-outlined">Close</span></a> -->
+    </div>
+    <!-- <a href="javascript:void(0)"class="icon" onclick="menuToggle()"> <span class="material-symbols-outlined">Menu</span></a> -->
+    <a onclick="menuToggle()"
+      ><img
+        class="icon"
+        src="Images/menu_dark.png"
+        width="42"
+        height="42"
+        alt="Jorina Chen's website logo"
+        class="mobile-logo"
+    /></a>
+  </div>
+
+   <!-- case study images-->
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/Project_Overview.png" style="width:100%" alt="Project overview of the International Student Well-Being case study.">
+  </div>
+
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/02_Exploring_the_Problem.png" style="width:100%" alt="Illustrates how the group explored the problem presented by OpenIDEO's design challenge.">
+  </div>
+
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/03_Our_Design_Space.png" style="width:100%" alt="Includes the who, what(+), and what(-) that the team used to explore their design space.">
+  </div>
+
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/04_Our_Design_Space_2.png" style="width:100%" alt="Includes the where, when, and why that our team used to explore our design space.">
+  </div>
+
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/05_Preliminary_Research.png" style="width:100%" alt="Presents the 3 main secondary sources that the team used to understand their current design question.">
+  </div>
+
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/06_Research_and_Ethical_Framework.png" style="width:100%" alt="Describes the research and ethical frameworks used by the team.">
+  </div>
+
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/07_Pilot_Observations_&_Interviews.png" style="width:100%" alt="Illustrates the key findings the team had from their pilot observations 
+    and interviews.">
+  </div>
+
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/08_Core_Stakeholders.png" style="width:100%" alt="Describes the core stakeholders which included international students, professors, and professionals.">
+  </div>
+
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/09_Primary_Research_Stakeholder_Interviews.png" style="width:100%" alt="Describes how the team conducted 15 stakeholder interviews to better understand
+     how might we support well-being & build understanding of the challenges that international students in the U.S. face in order to break the cycle of pressure due to job seeking?">
+  </div>
+
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/10_Primary_data_analysis_Affinity_diagramming.png" style="width:100%" alt="Shows an affinity diagram of the interview and observational data collected.">
+  </div>
+
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/11_Design_Question.png" style="width:100%" alt="Includes the final iteration of the team's design question, which is how might we support & nurture the 
+    mental well-being of international students in the United States to better raise awareness of the challenges they face due to employment prospects whilst maintaining their
+    immigration status?">
+  </div>
+
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/12_Brainstorming_Design_Ideas.png" style="width:100%" alt="Showcases the teams prototype brainstorm, which includes workshops, tutorials, and a 
+    mobile application.">
+  </div>
+
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/13_Prototyping_Storyboarding.png" style="width:100%" alt="Illustrates 3 storyboard images for how the mobile application is intended to be used.">
+  </div>
+
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/14_Interaction_flow_diagramming.png" style="width:100%" alt="Image of the team's interaction flow diagram.">
+  </div>
+
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/15_low_fidelity_prototype.png" style="width:100%" alt="Low-Fidelity Prototype of how users find a mentor, search, and access tutorials.">
+  </div>
+
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/16_Prototype_Testing_Thematic_Analysis.png" style="width:100%" alt="The team's thematic analysis which includes collect, group, label, 
+    and themes category.">
+  </div>
+
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/17_Prototype_Testing_Thematic_Analysis_(continued).png" style="width:100%" alt="Continuation of the team's thematic analysis which 
+    includes the team's four main themes.">
+  </div>
+
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/18_Style_Guide.png" style="width:100%" alt="The team's style guide which includes the typography and color palette">
+  </div>
+
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/19_High-Fidelity_Prototype.png" style="width:100%" alt="High-Fidelity Prototype including the sign up, home, tutorials, and help chat screen.">
+  </div>
+
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/20_Next_Steps.png" style="width:100%" alt="Illustrates the team's next steps of usability testing, engagement within university and
+     professional settings, and hosting focus groups.">
+  </div>
+
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/21_Takeaways.png" style="width:100%" alt="Depicts the three main takeaways of collaboration is key, practice makes 
+    perfect, and iterate, iterate, iterate">
+  </div>
+
+  <div class="ISWB-case-study-images">
+    <img src="ISWB/22_Thank_You.png" style="width:100%" alt="Thank you slide for Dr.Hubbard, Riot Games, IDEO, Fair Play Alliance, 
+    Joan Ganz Cooney Center at Sesame Workshop.">
+  </div>
+
+
+      <div class="footer">
+        <div class="light-footer-content">
+          <a href="https://linkedin.com/in/jorinachen/">
+            <img class= "LinkedIn" src="Images/LinkedIn_Icon.png" width="23" height= "23" alt="LinkedIn Icon that links to Jorina Chen's LinkedIn page">
+          </a>
+  
+          <a href="mailto:jorinajoshan@gmail.com">
+            <img class="Mail" src="Images/Mail_icon.png" width="28" height= "22" alt="Mail icon that links to Jorina Chen's email address">
+          </a>
+        </div>
+      </div>
+
+
+      <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+      const toggleButton = document.getElementById('toggle-button');
+
+
+      const darkMode = localStorage.getItem('darkMode');
+
+      if (darkMode === 'enabled') {
+      document.body.classList.add('dark-mode');
+     }
+
+     toggleButton.addEventListener('click', () => {
+     document.body.classList.toggle('dark-mode');
+
+    if (document.body.classList.contains('dark-mode')) {
+      localStorage.setItem('darkMode', 'enabled');
+    } else {
+      localStorage.setItem('darkMode', 'disabled');
+    }
+  });
+});
+
+
+document.addEventListener("DOMContentLoaded", (event) => {
+        const toggleButton = document.getElementById("toggle-button2");
+
+        const darkMode = localStorage.getItem("darkMode");
+
+        if (darkMode === "enabled") {
+          document.body.classList.add("dark-mode");
+        }
+
+        toggleButton.addEventListener("click", () => {
+          document.body.classList.toggle("dark-mode");
+
+          if (document.body.classList.contains("dark-mode")) {
+            localStorage.setItem("darkMode", "enabled");
+          } else {
+            localStorage.setItem("darkMode", "disabled");
+          }
+        });
+      });
+
+      function menuToggle() {
+        var navLinks = document.getElementById("nav-link");
+
+        if (navLinks.classList.contains("show")) {
+          navLinks.classList.remove("show");
+          setTimeout(() => {
+            navLinks.style.display = "none";
+          }, 500);
+          document.removeEventListener("click", closeMenu);
+        } else {
+          navLinks.style.display = "flex";
+          setTimeout(() => {
+            navLinks.classList.add("show");
+          }, 10);
+          document.addEventListener("click", closeMenu);
+        }
+      }
+
+      function closeMenu(event) {
+        var navLinks = document.getElementById("nav-link");
+        var icon = document.querySelector(".icon");
+
+        if (!navLinks.contains(event.target) && !icon.contains(event.target)) {
+          navLinks.classList.remove("show");
+          setTimeout(() => {
+            navLinks.style.display = "none";
+          }, 500);
+          document.removeEventListener("click", closeMenu);
+        }
+      }
+
+      </script>
+
+</body>
